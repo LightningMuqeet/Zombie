@@ -8,7 +8,7 @@ function preload()
   zombieH = loadAnimation("step1.png","step2.png","step3.png","step4.png","step5.png")
   zombieD = loadAnimation("d1.png","d2.png", "d3.png")
  // bgm = loadSound("Background.mp3");
-  zDeath = loadSound("Death sound.mp3")
+  //zDeath = loadSound("Death sound.mp3")
   bullet1 = loadImage("bullet.png")
 }
 
@@ -76,7 +76,7 @@ function draw() {
    {
      bulletGroup.destroyEach();
      HumanGroup.destroyEach();
-     zDeath.play();
+    // zDeath.play();
 
    }
    if(bulletGroup.isTouching(DogGroup))
