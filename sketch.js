@@ -22,7 +22,7 @@ function setup()
   bulletGroup = new Group();
   lives = 5;
   gameState = 1;
- 
+ console.log("hello");
   
 }
 
